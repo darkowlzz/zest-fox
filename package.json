@@ -1,0 +1,17 @@
+{
+  "title": "zest-firefox",
+  "name": "zest-firefox",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "engines": {
+    "firefox": ">=33.0a1",
+    "fennec": ">=33.0a1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.3.12",
+    "jpm": "0.0.23"
+  }
+}

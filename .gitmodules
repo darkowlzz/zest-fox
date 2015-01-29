@@ -1,0 +1,6 @@
+[submodule "data"]
+	path = data
+	url = git@github.com:darkowlzz/zest-sidebar.git
+[submodule "data/zest-sidebar"]
+	path = data/zest-sidebar
+	url = https://github.com/darkowlzz/zest-sidebar
