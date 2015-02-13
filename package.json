@@ -1,6 +1,6 @@
 {
-  "title": "zest-firefox",
-  "name": "zest-firefox",
+  "title": "zest-fox",
+  "name": "zest-fox",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -9,9 +9,11 @@
     "firefox": ">=33.0a1",
     "fennec": ">=33.0a1"
   },
-  "license": "MIT",
+  "license": "MPL",
   "dependencies": {
-    "bower": "^1.3.12",
-    "jpm": "0.0.23"
+    "filepicker-jetpack": "0.0.1",
+    "jpm": "0.0.23",
+    "lodash": "^3.2.0",
+    "zest-runner": "0.0.2"
   }
 }
