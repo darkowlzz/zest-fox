@@ -12,6 +12,7 @@
   "license": "MPL",
   "dependencies": {
     "filepicker-jetpack": "0.0.1",
+    "filesaver-jetpack": "0.0.1",
     "jpm": "0.0.23",
     "lodash": "^3.2.0",
     "zest-runner": "0.0.2"

@@ -3,6 +3,7 @@ var self = require('sdk/self');
 const { Sidebar } = require('sdk/ui/sidebar');
 const { Hotkey } = require('sdk/hotkeys');
 var FilePicker = require('filepicker-jetpack'),
+    FileSaver  = require('filesaver-jetpack'),
     ZestRunner = require('zest-runner');
 
 let visibility = true;
@@ -21,7 +22,13 @@ let sidebar = Sidebar({
       else {
         console.log('Error: Failed to import file');
       }
-    })
+    });
+
+    worker.port.on('SAVE', () => {
+      let fs = new FileSaver({title: 'Save Zest',
+                              fileExtension: '.zst'});
+      fs.save();
+    });
   }
 });
 
